@@ -3,7 +3,7 @@ import '../css/Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <div id="menu" className="navbar">
       <ul className="navbarWrapper">
         <li className="navbarItem">
           <a href="#">
@@ -14,16 +14,115 @@ const Navbar = () => {
           <a href="#">
             Store
           </a>
+          <ul>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">최신제품 쇼핑하기</a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">Mac</a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">iPad</a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">iPhone</a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">Apple Watch</a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">Accessory</a>
+            </li>
+          </ul>
         </li>
         <li className="navbarItem">
           <a href="#">
             Mac
           </a>
+          <ul>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Mac 모두보기
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                MacBook Air
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                MacBook Pro
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iMac
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Mac mini
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Mac Studio
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Mac Pro
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Display
+              </a>
+            </li>
+          </ul>
         </li>
         <li className="navbarItem">
           <a href="#">
             iPad
           </a>
+          <ul>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iPad 모두보기
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iPad Pro
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iPad Air
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iPad
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                iPad mini
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Apple Pencil
+              </a>
+            </li>
+            <li className="navbarItemInner">
+              <a href="#" className="cartegory">
+                Keyboard
+              </a>
+            </li>
+          </ul>
         </li>
         <li className="navbarItem">
           <a href="#">
@@ -71,7 +170,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-    </nav>
+    </div>
   )
 }
 

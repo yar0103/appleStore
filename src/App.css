@@ -1,0 +1,41 @@
+.part {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleWrap{
+  width: 35%;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  color: rgb(124, 124, 124);
+  letter-spacing: -2px;
+}
+
+.important {
+  color: black;
+}
+
+.storeItem{
+  display: flex;
+  justify-content: baseline;
+}
+
+.itemWrap{
+  margin: 50px 10px;
+}
+
+.itemImage{
+  width: 100px;
+}
+
+.itemTitle{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
