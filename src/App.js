@@ -1,41 +1,31 @@
-import './App.css';
-import React, {useState} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
+import "./App.css";
+import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 
 //conponent
-import Navbar from './conponent/Navbar';
-import StoreItem from './conponent/StoreItem';
-import NewItem from './conponent/NewItem';
+import Navbar from "./conponent/Navbar/Navbar";
+import StoreItem from "./conponent/StoreItem/StoreItem";
+import NewItem from "./conponent/NewItem/NewItem";
+import HelfSelf from "./conponent/HelfSelf/HelfSelf";
+import MoreReasons from "./conponent/MoreReasons/MoreReasons";
+import Sale from "./conponent/Sale/Sale";
+import FastLink from "./conponent/FastLink/FastLink";
+import Footer from "./conponent/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Container>
-        <div className='part'>
-          <div className='titleWrap'>
-            <h2 className='title'>
-              <span className='important'>
-                스토어.
-              </span>
-              좋아하는 Apple 제품을 구입하는 가장 좋은 방법.
-            </h2>
-          </div>
-          <StoreItem  />
-        </div>
-        <div className='part'>
-        <div className='titleWrap'>
-            <h5 className='title'>
-              <span className='important'>
-                최신제품.
-              </span>
-              따끈따끈한 신제품 이야기.
-            </h5>
-          </div>
-          <NewItem />
-        </div>
+        <StoreItem />
+        <NewItem />
+        <HelfSelf />
+        <MoreReasons />
+        <Sale />
+        <FastLink />
       </Container>
+      <Footer />
     </div>
   );
 }

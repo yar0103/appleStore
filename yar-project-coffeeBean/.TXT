@@ -1,0 +1,1 @@
+searchSend() -> function 만들기 (submit)

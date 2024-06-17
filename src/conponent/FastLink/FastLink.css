@@ -1,0 +1,29 @@
+.listWrap {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-bottom: 80px;
+}
+
+.linkListLi {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.linkList {
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 20px;
+  letter-spacing: -0.5px;
+}
+
+.subTitle {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
