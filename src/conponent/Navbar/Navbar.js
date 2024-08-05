@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       {
-        innerWidth < 1112 ? <NavbarM /> : 
+        innerWidth < 992 ? <NavbarM /> : 
         <div id="menu" className="navbarBase">
         <ul className="navbarWrapper">
           <li className="navbarItem">

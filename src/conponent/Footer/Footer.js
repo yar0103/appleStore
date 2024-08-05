@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import FooterM from './FooterM';
 
 const Footer = () => {
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+
+  const resizeListener = () => {
+    setInnerWidth(window.innerWidth);
+  }
+
+  useEffect(()=>{
+    window.addEventListener("resize", resizeListener);
+
+    return () => {
+      window.removeEventListener("resize", resizeListener);
+    }
+  },[]);
+
+  console.log("innerWidth", innerWidth);
   return (
     <Container>
-      <div className="footer">
+      {
+        innerWidth < 992 ? <FooterM /> :
+        <div className="footer">
         <div className="info">
           사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제
           2011-서울강남-00810호 <br />
@@ -312,6 +330,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      }
     </Container>
   );
 };
