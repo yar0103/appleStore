@@ -291,7 +291,7 @@ const Footer = () => {
               </a>
             </span>
             <span className="span">
-              를 찾아보거나, 080-330-8877번으로 전화하세요.
+              를 찾아보거나, <a href="https://locate.apple.com/kr/ko" className="tag">080-330-8877</a>번으로 전화하세요.
             </span>
           </p>
 

@@ -1,4 +1,4 @@
-.navbar {
+.navbarBase {
   background-color: white;
   padding: 10px;
   height: 50px;
@@ -20,7 +20,7 @@
 a {
   text-decoration: none;
   color: black;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 ul li {
@@ -42,7 +42,6 @@ ul li {
 }
 
 #menu > ul > li > ul > li {
-  /* float: left; */
   width: 150px;
   position: relative;
   left: -32px;
@@ -58,3 +57,4 @@ ul li {
   font-size: 14px;
   font-weight: 600;
 }
+
