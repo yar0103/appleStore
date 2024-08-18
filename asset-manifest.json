@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/appleStore/static/css/main.1a0106ed.css",
-    "main.js": "/appleStore/static/js/main.67193ebe.js",
+    "main.css": "/appleStore/static/css/main.7c9c6af3.css",
+    "main.js": "/appleStore/static/js/main.a23b619d.js",
     "static/js/453.2bc1f555.chunk.js": "/appleStore/static/js/453.2bc1f555.chunk.js",
     "index.html": "/appleStore/index.html",
-    "main.1a0106ed.css.map": "/appleStore/static/css/main.1a0106ed.css.map",
-    "main.67193ebe.js.map": "/appleStore/static/js/main.67193ebe.js.map",
+    "main.7c9c6af3.css.map": "/appleStore/static/css/main.7c9c6af3.css.map",
+    "main.a23b619d.js.map": "/appleStore/static/js/main.a23b619d.js.map",
     "453.2bc1f555.chunk.js.map": "/appleStore/static/js/453.2bc1f555.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a0106ed.css",
-    "static/js/main.67193ebe.js"
+    "static/css/main.7c9c6af3.css",
+    "static/js/main.a23b619d.js"
   ]
 }
