@@ -65,7 +65,7 @@ const NewItem = () => {
                 idx === 2 || idx === 3 ? "blackText" : ""
               }`}
             >
-              \{item.title3.toLocaleString()} 부터
+              {item.title3.toLocaleString()} 부터
             </div>
           </div>
         ))}

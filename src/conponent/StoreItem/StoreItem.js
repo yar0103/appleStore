@@ -13,7 +13,7 @@ const StoreItem = () => {
     },
     {
       title: "iPad",
-      src: "image/ipad.png",
+      src: process.env.PUBLIC_URL + "/image/ipad.png",
     },
     {
       title: "Apple Watch",
@@ -33,7 +33,7 @@ const StoreItem = () => {
     },
     {
       title: "Accesory",
-      src: "image/accesory.png",
+      src: process.env.PUBLIC_URL + "/image/accesory.png",
     },
   ];
 
@@ -47,8 +47,8 @@ const StoreItem = () => {
         </h1>
       </div>
       <div className="storeItem">
-        {dummyList.map((item) => (
-          <div className="itemWrap">
+        {dummyList.map((item,i) => (
+          <div className="itemWrap" key={i}>
             <img src={item.src} alt="itemImage" className="itemImage" />
             <div className="itemTitle">{item.title}</div>
           </div>
