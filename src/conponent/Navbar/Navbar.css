@@ -20,7 +20,8 @@
 a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  padding: 0 5px;
+  font-size: 13px;
 }
 
 ul li {
@@ -61,3 +62,47 @@ ul li {
 .btn {
   padding: 0;
 }
+
+.offcanvas-title{
+  font-size: 2rem;
+}
+
+.mobileNav{
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1246px) {
+  .navbarItem {
+    float: left;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .navbarItem {
+    float: left;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding: 0 5px;
+    font-size: 13px;
+  }
+
+  a:hover::after {
+    content: "";
+    background-image: url('/public/image/arrow.png');
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    margin: 8px 10px;
+  }
+}
+
+

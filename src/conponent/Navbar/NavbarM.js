@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavbarOffcanvas } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavbarM = () => {
   return (
@@ -7,14 +8,33 @@ const NavbarM = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-md">
           <a className="navbar-brand" href="#">
-            <img src={`${process.env.PUBLIC_URL}/image/apple.png`} alt="logo" width="22px" />
+            <img
+              src={`${process.env.PUBLIC_URL}/image/apple.png`}
+              alt="logo"
+              style={{ width: 30 }}
+            />
           </a>
           <div className="rightNav ">
-            <button className="navbar-brand btn" href="#">
-              <img src={`${process.env.PUBLIC_URL}/image/basket.png`} alt="logo" width="20px" />
+            <button className="navbar-brand btn" Link to="/login">
+              <img
+                src={`${process.env.PUBLIC_URL}/image/login.svg`}
+                alt="logo"
+                style={{ width: 33 }}
+              />
             </button>
             <button className="navbar-brand btn" href="#">
-              <img src={`${process.env.PUBLIC_URL}/image/search.png`} alt="logo" width="20px" />
+              <img
+                src={`${process.env.PUBLIC_URL}/image/basket.svg`}
+                alt="logo"
+                style={{ width: 30 }}
+              />
+            </button>
+            <button className="navbar-brand btn" href="#">
+              <img
+                src={`${process.env.PUBLIC_URL}/image/search.svg`}
+                alt="logo"
+                style={{ width: 30 }}
+              />
             </button>
             <button
               className="navbar-brand btn"
@@ -23,7 +43,11 @@ const NavbarM = () => {
               data-bs-target="#offcanvasExample"
               aria-controls="offcanvasExample"
             >
-              <img src={`${process.env.PUBLIC_URL}/image/list.svg`} alt="logo" style={{ width: 25 }} />
+              <img
+                src={`${process.env.PUBLIC_URL}/image/list.svg`}
+                alt="logo"
+                style={{ width: 36 }}
+              />
             </button>
           </div>
 
@@ -45,36 +69,36 @@ const NavbarM = () => {
               ></button>
             </div>
             <div className="offcanvas-body">
-              <div className='p-2'>
+              <Link to="/" className="mobileNav">
                 store
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 Mac
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 iPad
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 iPhone
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 Watch
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 AirPods
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 TV etc
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 Entertainment
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 Accessory
-              </div>
-              <div className='p-2'>
+              </Link>
+              <Link to="/" className="mobileNav">
                 Customer Support
-              </div>
+              </Link>
             </div>
           </div>
         </div>

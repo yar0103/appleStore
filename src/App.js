@@ -13,6 +13,7 @@ import Sale from "./conponent/Sale/Sale";
 import FastLink from "./conponent/FastLink/FastLink";
 import Footer from "./conponent/Footer/Footer";
 
+
 function App() {
   return (
     <div className="App">

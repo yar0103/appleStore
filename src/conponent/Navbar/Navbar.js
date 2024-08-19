@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import NavbarM from './NavbarM';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
@@ -457,10 +458,19 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="navbarItem">
+              <Link to="/login">
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/login.svg`}
+                  alt="search"
+                  width="21px"
+                />
+              </Link>
+            </li>
+            <li className="navbarItem">
               <a href="#">
                 <img
-                  src={`${process.env.PUBLIC_URL}/image/search.png`}
-                  alt="search"
+                  src={`${process.env.PUBLIC_URL}/image/basket.svg`}
+                  alt="basket"
                   width="18px"
                 />
               </a>
@@ -468,8 +478,8 @@ const Navbar = () => {
             <li className="navbarItem">
               <a href="#">
                 <img
-                  src={`${process.env.PUBLIC_URL}/image/basket.png`}
-                  alt="basket"
+                  src={`${process.env.PUBLIC_URL}/image/search.svg`}
+                  alt="search"
                   width="18px"
                 />
               </a>
