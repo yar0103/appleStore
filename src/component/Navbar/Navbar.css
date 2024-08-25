@@ -6,6 +6,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   justify-content: center;
+  
 }
 
 .navbar-brand{
@@ -15,6 +16,12 @@
 
 .navbarWrapper {
   list-style: none;
+  z-index: 100;
+}
+
+.navTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .navbarItem {

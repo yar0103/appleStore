@@ -15,6 +15,8 @@ import Sale from './component/Sale/Sale';
 import FastLink from './component/FastLink/FastLink';
 import Footer from './component/Footer/Footer';
 import Login from './pages/Login/Login';
+import SignUp from './pages/SignUp/SignUp';
+import ForgotPw from './pages/ForgotPw/ForgotPw';
 import Basket from './pages/Basket/Basket';
 import Detail from './pages/Detail/Detail';
 
@@ -37,8 +39,11 @@ function App() {
           }
         ></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/signUp" element={<SignUp />}></Route>
+        <Route path="/forgotpw" element={<ForgotPw />}></Route>
         <Route path="/basket" element={<Basket />}></Route>
         <Route path="/detail" element={<Detail />}></Route>
+        <Route path="/newItem" element={<NewItem />}></Route>
       </Routes>
       <Footer />
     </div>

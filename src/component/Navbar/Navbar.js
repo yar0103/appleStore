@@ -47,7 +47,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/newShopping">
+                  <Link to="/newItem" className='navTitle'>
                     최신제품 쇼핑하기
                   </Link>
                 </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
                   <img src={`${process.env.PUBLIC_URL}/image/macbook.png`} className="cartegory" />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/allmac">
+                  <Link to="/allmac" className='navTitle'>
                     Mac 모두보기
                   </Link>
                 </li>
@@ -137,7 +137,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/allipad">
+                  <Link to="/allipad" className='navTitle'>
                     iPad 모두보기
                   </Link>
                 </li>
@@ -184,7 +184,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/alliphone">
+                  <Link to="/alliphone" className='navTitle'>
                     iPhone 모두보기
                   </Link>
                 </li>
@@ -226,7 +226,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/allapplewatch">
+                  <Link to="/allapplewatch" className='navTitle'>
                     Apple Watch 모두보기
                   </Link>
                 </li>
@@ -268,7 +268,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/allairpods">
+                  <Link to="/allairpods" className='navTitle'>
                     AirPods 모두보기
                   </Link>
                 </li>
@@ -305,7 +305,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/alltvect">
+                  <Link to="/alltvect" className='navTitle'>
                     TV 및 홈 모두보기
                   </Link>
                 </li>
@@ -374,7 +374,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <Link to="/allaccessory">
+                  <Link to="/allaccessory" className='navTitle'>
                     Accessory 모두보기
                   </Link>
                 </li>
