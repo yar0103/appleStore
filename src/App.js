@@ -1,40 +1,46 @@
-import "./App.css";
-import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Container } from "react-bootstrap";
-import { Routes, Route } from "react-router-dom";
+import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+// import { Form } from 'react-router-dom';
+import { Router, Routes, Route, Link } from 'react-router-dom';
 
-//conponent
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Navbar from "./conponent/Navbar/Navbar";
-import StoreItem from "./conponent/StoreItem/StoreItem";
-import NewItem from "./conponent/NewItem/NewItem";
-import HelfSelf from "./conponent/HelfSelf/HelfSelf";
-import MoreReasons from "./conponent/MoreReasons/MoreReasons";
-import Sale from "./conponent/Sale/Sale";
-import FastLink from "./conponent/FastLink/FastLink";
-import Footer from "./conponent/Footer/Footer";
-import { Form } from 'react-router-dom';
-
+//component
+import Navbar from './component/Navbar/Navbar';
+import StoreItem from './component/StoreItem/StoreItem';
+import NewItem from './component/NewItem/NewItem';
+import HelfSelf from './component/HelfSelf/HelfSelf';
+import MoreReasons from './component/MoreReasons/MoreReasons';
+import Sale from './component/Sale/Sale';
+import FastLink from './component/FastLink/FastLink';
+import Footer from './component/Footer/Footer';
+import Login from './pages/Login/Login';
+import Basket from './pages/Basket/Basket';
+import Detail from './pages/Detail/Detail';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/about' element={<About />}></Route>
+        <Route
+          path="/"
+          element={
+            <Container>
+              <StoreItem />
+              <NewItem />
+              <HelfSelf />
+              <MoreReasons />
+              <Sale />
+              <FastLink />
+            </Container>
+          }
+        ></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/basket" element={<Basket />}></Route>
+        <Route path="/detail" element={<Detail />}></Route>
       </Routes>
-      {/* <Navbar />
-      <Container>
-        <StoreItem />
-        <NewItem />
-        <HelfSelf />
-        <MoreReasons />
-        <Sale />
-        <FastLink />
-      </Container>
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

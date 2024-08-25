@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+.navbar-brand{
+  border: none;
+  background-color: #F8F8F8;
+}
+
 .navbarWrapper {
   list-style: none;
 }
@@ -53,11 +58,11 @@ ul li {
   margin-bottom: 15px;
 }
 
-.cartegory {
+/* .cartegory {
   color: black;
   font-size: 14px;
   font-weight: 600;
-}
+} */
 
 .btn {
   padding: 0;
@@ -95,7 +100,7 @@ ul li {
     font-size: 13px;
   }
 
-  a:hover::after {
+  .mobileNav:hover::after {
     content: "";
     background-image: url('/public/image/arrow.png');
     background-repeat: no-repeat;

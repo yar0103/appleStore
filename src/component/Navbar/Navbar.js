@@ -28,15 +28,15 @@ const Navbar = () => {
         <div id="menu" className="navbarBase">
           <ul className="navbarWrapper">
             <li className="navbarItem">
-              <a href="#">
+              <Link to="/">
                 <img
                   src={`${process.env.PUBLIC_URL}/image/apple.png`}
                   alt="logo"
                 />
-              </a>
+              </Link>
             </li>
             <li className="navbarItem">
-              <a href="#">Store</a>
+              <Link to="/store">Store</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -47,87 +47,87 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newShopping">
                     최신제품 쇼핑하기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newmac">
                     Mac
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newipad">
                     iPad
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newiphone">
                     iPhone
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newapplewatch">
                     Apple Watch
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/newaccessory">
                     Accessory
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">Mac</a>
+              <Link to="/mac">Mac</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img src={`${process.env.PUBLIC_URL}/image/macbook.png`} className="cartegory" />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/allmac">
                     Mac 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/macbookair">
                     MacBook Air
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/macbookpro">
                     MacBook Pro
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/imac">
                     iMac
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/macmini">
                     Mac mini
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/macstudio">
                     Mac Studio
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/macpro">
                     Mac Pro
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/display">
                     Display
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">iPad</a>
+              <Link to="/ipad">iPad</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -137,44 +137,44 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/allipad">
                     iPad 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ipadpro">
                     iPad Pro
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ipadair">
                     iPad Air
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ipad">
                     iPad
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ipadmini">
                     iPad mini
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applepencil">
                     Apple Pencil
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/keyboard">
                     Keyboard
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">iPhone</a>
+              <Link to="/iphone">iPhone</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -184,39 +184,39 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/alliphone">
                     iPhone 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/iphone15pro">
                     iPhone 15 Pro
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/iphone15">
                     iPhone 15
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/iphone14">
                     iPhone 14
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/iphone13">
                     iPhone 13
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/iphonese">
                     iPhone SE
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">Watch</a>
+              <Link to="/watch">Watch</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -226,39 +226,39 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/allapplewatch">
                     Apple Watch 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/watch9">
                     Apple Watch Series 9
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/watchultra2">
                     Apple Watch Ultra 2
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/watchse">
                     Apple Watch SE
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/watchnike">
                     Apple Watch Nike
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/watchhermes">
                     Apple Watch Hermes
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">AirPods</a>
+              <Link to="/airpods">AirPods</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -268,34 +268,34 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/allairpods">
                     AirPods 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/airpodpro2">
                     AirPods Pro 2세대
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/airpods2">
                     AirPods 2세대
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/airpods3">
                     AirPods 3세대
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/airpodsmax">
                     AirPods Max
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">TV etc</a>
+              <Link to="/tvetc">TV etc</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -305,19 +305,19 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/alltvect">
                     TV 및 홈 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/tv4k">
                     Apple TV 4K
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">Entertainment</a>
+              <Link to="/entertainment">Entertainment</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -327,44 +327,44 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/appleone">
                     Apple One
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/appletv+">
                     Apple TV+
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applemusic">
                     Apple Music
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applearcade">
                     Apple Arcade
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applepodcasts">
                     Apple Podcasts
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applebooks">
                     Apple Books
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/applestore">
                     Apple Store
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">Accessory</a>
+              <Link to="/accessory">Accessory</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -374,44 +374,44 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/allaccessory">
                     Accessory 모두보기
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/amac">
                     Mac
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/aipad">
                     iPad
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/aiphone">
                     iphone
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/awatch">
                     Apple Watch
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/aairpods">
                     AirPods
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/atvect">
                     TV 및 홈
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="navbarItem">
-              <a href="#">Customer Support</a>
+              <Link to="/customer">Customer Support</Link>
               <ul>
                 <li className="navbarItemInner">
                   <img
@@ -421,39 +421,39 @@ const Navbar = () => {
                   />
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ciphone">
                     iphone
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/cmac">
                     Mac
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/cipad">
                     iPad
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/cwatch">
                     Watch
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/cairpods">
                     AirPods
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/cmusic">
                     Music
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbarItemInner">
-                  <a href="#" className="cartegory">
+                  <Link to="/ctv">
                     TV
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -467,13 +467,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="navbarItem">
-              <a href="#">
+              <Link to="/basket">
                 <img
                   src={`${process.env.PUBLIC_URL}/image/basket.svg`}
                   alt="basket"
                   width="18px"
                 />
-              </a>
+              </Link>
             </li>
             <li className="navbarItem">
               <a href="#">

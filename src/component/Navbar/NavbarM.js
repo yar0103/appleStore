@@ -7,27 +7,33 @@ const NavbarM = () => {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-md">
-          <a className="navbar-brand" href="#">
-            <img
-              src={`${process.env.PUBLIC_URL}/image/apple.png`}
-              alt="logo"
-              style={{ width: 30 }}
-            />
-          </a>
-          <div className="rightNav ">
-            <button className="navbar-brand btn" Link to="/login">
+          <button className="navbar-brand" href="#">
+            <Link to="/">
               <img
-                src={`${process.env.PUBLIC_URL}/image/login.svg`}
-                alt="logo"
-                style={{ width: 33 }}
-              />
-            </button>
-            <button className="navbar-brand btn" href="#">
-              <img
-                src={`${process.env.PUBLIC_URL}/image/basket.svg`}
+                src={`${process.env.PUBLIC_URL}/image/apple.png`}
                 alt="logo"
                 style={{ width: 30 }}
               />
+            </Link>
+          </button>
+          <div className="rightNav ">
+            <button className="navbar-brand btn" >
+              <Link to="/login">
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/login.svg`}
+                  alt="logo"
+                  style={{ width: 33 }}
+                />
+              </Link>
+            </button>
+            <button className="navbar-brand btn" href="#">
+              <Link to="/basket">
+                <img
+                  src={`${process.env.PUBLIC_URL}/image/basket.svg`}
+                  alt="logo"
+                  style={{ width: 30 }}
+                />
+              </Link>
             </button>
             <button className="navbar-brand btn" href="#">
               <img
@@ -69,34 +75,34 @@ const NavbarM = () => {
               ></button>
             </div>
             <div className="offcanvas-body">
-              <Link to="/" className="mobileNav">
+              <Link to="/store" className="mobileNav">
                 store
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/allmac" className="mobileNav">
                 Mac
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/allipad" className="mobileNav">
                 iPad
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/alliphone" className="mobileNav">
                 iPhone
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/allwatch" className="mobileNav">
                 Watch
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/allairpods" className="mobileNav">
                 AirPods
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/alltvect" className="mobileNav">
                 TV etc
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/entertainment" className="mobileNav">
                 Entertainment
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/accessory" className="mobileNav">
                 Accessory
               </Link>
-              <Link to="/" className="mobileNav">
+              <Link to="/customer" className="mobileNav">
                 Customer Support
               </Link>
             </div>
