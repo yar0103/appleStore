@@ -35,14 +35,14 @@ const NewItem = () => {
     },
   ];
   return (
-    <div className="part">
+    <div className="part grid">
       <div className="titleWrap">
         <h4 className="title">
           <span className="important">최신제품.</span>
           따끈따끈한 신제품 이야기.
         </h4>
       </div>
-      <div className="newItem">
+      <div className="newItem g-col-2 g-col-l-6">
         {dummyList.map((item, idx) => (
           <div className="itemWrap" key={idx}>
             <img src={item.src} alt="itemImage" className="itemImage" />

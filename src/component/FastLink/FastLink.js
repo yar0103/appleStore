@@ -1,5 +1,6 @@
 import React from "react";
 import "./FastLink.css";
+import { Link } from 'react-router-dom';
 
 const FastLink = () => {
   return (
@@ -9,24 +10,24 @@ const FastLink = () => {
           <span className="important">빠른링크</span>
           <ul className="listWrap">
             <li className="linkListLi">
-              <a href="#" className="linkList">
+              <Link to="./orderState" className="linkList">
                 주문 상태
-              </a>
+              </Link>
             </li>
             <li className="linkListLi">
-              <a href="#" className="linkList">
+              <Link to="./soppingHelf" className="linkList">
                 쇼핑 도움말
-              </a>
+              </Link>
             </li>
             <li className="linkListLi">
-              <a href="#" className="linkList">
+              <Link to="./productReturn" className="linkList">
                 반품
-              </a>
+              </Link>
             </li>
             <li className="linkListLi">
-              <a href="#" className="linkList">
+              <Link to="./watchList" className="linkList">
                 관심목록
-              </a>
+              </Link>
             </li>
           </ul>
         </h4>

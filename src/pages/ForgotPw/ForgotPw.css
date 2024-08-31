@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+.findForm{
+  background-color: white;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.findForm .row .col {
+  display: table;
+}
+
+.findForm .row .col span {
+  padding: 5px 20px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.idpwFind{
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+.col img {
+  width: 40%;
+}

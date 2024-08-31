@@ -11,8 +11,7 @@ import {
 } from '@mui/material';
 import { TextField } from '@mui/material';
 import { Button } from '@mui/material';
-import { Link as MuiLink } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 const User = {
@@ -125,10 +124,10 @@ export default function Login() {
         </Button>
         <Grid container sx={{ mb: 10 }}>
           <Grid item xs>
-            <RouterLink to="/forgotpw" className='movePages'>Forgot password?</RouterLink>
+            <Link to="/login/forgotpw" className='movePages'>Forgot password?</Link>
           </Grid>
           <Grid item>
-            <RouterLink to="/signUp" className='movePages'>Sign Up</RouterLink>
+            <Link to="/login/signUp" className='movePages'>Sign Up</Link>
           </Grid>
         </Grid>
       </Box>
